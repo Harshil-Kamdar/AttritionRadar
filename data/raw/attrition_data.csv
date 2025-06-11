@@ -1,0 +1,11 @@
+employee_id,exit_reason,last_day,feedback_score,exit_interview_sentiment
+E011,Career Growth,2023-01-15,4.2,Positive
+E012,Better Opportunity,2023-02-01,3.8,Neutral
+E013,Work-Life Balance,2023-03-01,4.5,Positive
+E014,Relocation,2023-02-15,4.0,Positive
+E015,Company Culture,2023-01-31,3.5,Negative
+E016,Better Opportunity,2023-03-15,4.3,Positive
+E017,Work-Life Balance,2023-02-28,4.1,Neutral
+E018,Career Growth,2023-01-15,4.4,Positive
+E019,Relocation,2023-03-01,4.6,Positive
+E020,Company Culture,2023-02-15,3.9,Neutral 

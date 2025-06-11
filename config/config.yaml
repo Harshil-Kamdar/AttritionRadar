@@ -1,0 +1,40 @@
+# Data Sources Configuration
+data_sources:
+  hris:
+    path: "data/raw/hris_data.csv"
+    columns:
+      - employee_id
+      - role
+      - manager_id
+      - department
+      - tenure
+      - performance_rating
+      - last_promotion_date
+      - location
+  
+  attrition:
+    path: "data/raw/attrition_data.csv"
+    columns:
+      - employee_id
+      - exit_reason
+      - last_day
+      - feedback_score
+      - exit_interview_sentiment
+
+# Feature Engineering Parameters
+features:
+  tenure_threshold: 24  # months
+  promotion_threshold: 12  # months
+  team_attrition_threshold: 0.2  # 20%
+  
+# Model Parameters
+model:
+  train_test_split: 0.2
+  random_state: 42
+  risk_threshold: 0.0  # Probability threshold for high risk
+
+# Dashboard Settings
+dashboard:
+  port: 8050
+  debug: true
+  refresh_interval: 3600  # seconds 

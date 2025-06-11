@@ -1,0 +1,11 @@
+employee_id,role,manager_id,department,tenure,performance_rating,last_promotion_date,location
+E001,Software Engineer,M001,Engineering,36,4.5,2022-01-15,New York
+E002,Product Manager,M002,Product,24,4.2,2022-06-01,San Francisco
+E003,Data Scientist,M001,Engineering,18,4.8,2023-01-01,New York
+E004,UX Designer,M003,Design,12,4.0,2023-03-15,London
+E005,Software Engineer,M001,Engineering,48,4.3,2021-12-01,San Francisco
+E006,Product Manager,M002,Product,30,4.6,2022-09-01,New York
+E007,Data Scientist,M001,Engineering,24,4.4,2022-12-01,London
+E008,UX Designer,M003,Design,36,4.7,2022-03-01,San Francisco
+E009,Software Engineer,M001,Engineering,12,4.1,2023-02-01,New York
+E010,Product Manager,M002,Product,42,4.9,2021-06-01,London 
