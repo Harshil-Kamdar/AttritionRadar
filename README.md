@@ -2,7 +2,7 @@
 
 A proactive Attrition Intelligence Dashboard that uses internal signals to predict and prevent talent loss before it happens.
 
-## 🎯 Overview
+## Overview
 
 Attrition Radar helps organizations predict and prevent talent loss by:
 - Identifying teams and departments at risk of losing talent
@@ -10,7 +10,7 @@ Attrition Radar helps organizations predict and prevent talent loss by:
 - Visualizing patterns of churn across different dimensions
 - Providing actionable insights for strategic hiring
 
-## 🚀 Features
+## Features
 
 - **Attrition Risk Prediction**: Machine learning models to identify high-risk employees and teams
 - **Pre-hiring Recommendations**: Smart suggestions for roles to start sourcing
@@ -18,7 +18,7 @@ Attrition Radar helps organizations predict and prevent talent loss by:
 - **Risk Heatmaps**: Department and region-based risk visualization
 - **Attrition Timeline**: Historical trends and future predictions
 
-## 📊 Data Sources
+## Data Sources
 
 The system integrates multiple data sources:
 - HRIS data (employee records, roles, tenure, performance)
@@ -26,7 +26,7 @@ The system integrates multiple data sources:
 - Productivity metrics (optional)
 - Industry benchmarks
 
-## 🛠️ Setup
+## Setup
 
 1. Clone the repository
 2. Install dependencies:
@@ -45,7 +45,7 @@ python src/data/pipeline.py
 python src/app.py
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 attrition_radar/
@@ -59,22 +59,22 @@ attrition_radar/
 └── notebooks/          # Jupyter notebooks for analysis
 ```
 
-## 🔧 Requirements
+## Requirements
 
 - Python 3.8+
 - See requirements.txt for full list of dependencies
 
-## 📈 Usage
+## Usage
 
 1. **Data Ingestion**: Import your HRIS and attrition data
 2. **Model Training**: Train the attrition prediction model
 3. **Dashboard**: Access insights through the interactive dashboard
 4. **Alerts**: Set up notifications for high-risk situations
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details. 
